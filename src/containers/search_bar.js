@@ -21,7 +21,6 @@ class SearchBar extends Component{
         this.setState({ term : ''})
     }
     render () {
-        console.log(this.props.weather)
         return (
             <form onSubmit={this.onFormSubmit} className={'input-group'}>
                 <input
